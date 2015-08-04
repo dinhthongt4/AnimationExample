@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AccelerateActivity_"/>
+        <activity android:name=".ThreadExample_"/>
     </application>
 
 </manifest>

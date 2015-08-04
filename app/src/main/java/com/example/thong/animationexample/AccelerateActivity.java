@@ -1,6 +1,7 @@
 package com.example.thong.animationexample;
 
 import android.app.Activity;
+import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
@@ -20,5 +21,6 @@ public class AccelerateActivity extends Activity {
     @Click(R.id.button)
     void setAccelerateActivity() {
         button.startAnimation(AnimationUtils.loadAnimation(AccelerateActivity.this,R.anim.scale_button));
+
     }
 }

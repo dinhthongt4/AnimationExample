@@ -24,4 +24,9 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(this,AccelerateActivity_.class);
         startActivity(intent);
     }
+    @Click(R.id.btnThreadExample)
+    void intentThreadExample() {
+        Intent intent = new Intent(this,ThreadExample_.class);
+        startActivity(intent);
+    }
 }
